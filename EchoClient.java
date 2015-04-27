@@ -24,7 +24,7 @@ public class EchoClient {
             String input = "aaaaaaaaaa";
             while (count > 0) {
                 out.println(input);
-                System.out.println("echo: " + in.readLine());
+                System.out.println("" + count + " echo: " + in.readLine());
                 count --;
             }
         } catch (UnknownHostException e) {
